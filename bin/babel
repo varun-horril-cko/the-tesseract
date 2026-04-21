@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+TESSERACT_HOME="${TESSERACT_HOME:-$HOME/Projects/the-tesseract}"
+claude "Read ${TESSERACT_HOME}/agents/babel/SYSTEM.md and adopt that persona fully. Also read ${TESSERACT_HOME}/CLAUDE.md for shared standards. Then: $*"
